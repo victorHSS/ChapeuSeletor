@@ -81,7 +81,7 @@ def sortChapeuSeletor(chapeuSeletor, casas, alunos, ksize, sobras):
 		chapeuSeletor[casas[s]].append(alunosTmp[s])
 
 def usage():
-	print("Usage:\n./chapeuSeletor.py <lista_alunos.txt> <num_casas [2..4]>")
+	print(f"Usage:\n{sys.argv[0]} <lista_alunos.txt> <num_casas [2..4]>")
 	sys.exit(0)
 
 def main():
